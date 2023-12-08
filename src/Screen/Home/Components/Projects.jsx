@@ -1,4 +1,5 @@
 import ProjectCard from "./sub/ProjectCard";
+import { NavLink } from 'react-router-dom'
 
 const Projects = () => {
   return (
@@ -11,19 +12,20 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/hypecrates.png"
+          title="Hypecrates build using React.js and Express.js"
+          description="."
+          url="www.hypecrates.com"
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          src="/blissbox.png"
+          title="Hypecrates build using React.js and Express.js"
+          description=""
         />
         <ProjectCard
           src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          title="Hypecrates build using React.js and Express.js"
+          description=""
         />
       </div>
     </div>
