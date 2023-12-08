@@ -2,7 +2,7 @@ import { BrowserRouter } from 'react-router-dom';
 import AnimatedCursor from 'react-animated-cursor';
 
 //internal imports
-import Layout from './layouts/layout';
+import Layout from './layouts/Layout';
 import Router from './router/Router';
 
 function App() {
